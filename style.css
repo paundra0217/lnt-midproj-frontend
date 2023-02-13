@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.parts {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.myname {
+  margin-bottom: 24px;
+}
+
+.titleparta {
+  margin: 0 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #30ff3e;
+  font-size: 12vw;
+  height: 100vh;
+}
+
+.titlepartb {
+  margin: 0 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.titlepartc {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.titlepartd {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 32px 0;
+}
+
+.selfimg {
+  max-width: 256px;
+  max-height: 256px;
+  border-radius: 100%;
+  margin: 36px 0;
+  filter: grayscale(100%);
+  pointer-events: none;
+}
+
+.images {
+  margin-top: 20px;
+  margin-left: 20vh;
+  margin-right: 20vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images > img {
+  margin: 4px;
+  width: 426px;
+  height: 240px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.titlesubtitle {
+  font-size: 24px;
+  color: #30ff3e;
+  margin-right: 36px;
+  width: 50%;
+  text-align: right;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name > p {
+  overflow: hidden;
+}
+
+.textpart {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.imagepart {
+  background-color: blue;
+}
+
+.thetextleft {
+  margin: 0 3vw;
+  text-align: center;
+  width: 100%;
+}
+
+.thetextright {
+  margin: 0 3vw;
+  text-align: center;
+  width: 100%;
+}
+
+.texttitle {
+  font-size: 64px;
+  color: #30ff3e;
+}
+
+.texttitlesub {
+  font-size: 48px;
+  color: #30ff3e;
+}
+
+.textsubtitle {
+  font-size: 24px;
+  color: white;
+}
+
+.icons {
+  background-color: #212121;
+  width: 96px;
+  height: 96px;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 8px;
+}
+
+.contactform {
+  width: 100vh;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+form > div {
+  color: #30ff3e;
+  margin: 8px 0;
+}
+
+.forminput {
+  width: 70vh;
+  padding: 4px;
+  font-size: 16px;
+  border-width: 2px;
+  border-color: #3d3d3d;
+  background-color: #262626;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.formmsg {
+  height: 120px;
+  width: 70vh;
+  padding: 4px;
+  font-size: 16px;
+  border-width: 2px;
+  border-color: #3d3d3d;
+  background-color: #262626;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.submitbutton {
+  background-color: #30ff3e;
+  border-color: none;
+  height: 48px;
+  width: 72vh;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+
+.submitbutton:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .textpart {
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .imagepart {
+    margin: 32px 0;
+    background-color: blue;
+  }
+
+  .images > img {
+    margin: 4px;
+    width: 256px;
+    height: 144px;
+    border-radius: 8px;
+  }
+
+  .images {
+    margin-top: 20px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .forminput {
+    width: 36vh;
+    padding: 4px;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #3d3d3d;
+    background-color: #262626;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+  }
+
+  .formmsg {
+    height: 120px;
+    width: 36vh;
+    padding: 4px;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #3d3d3d;
+    background-color: #262626;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+  }
+
+  .submitbutton {
+    background-color: #30ff3e;
+    border-color: none;
+    height: 48px;
+    width: 36vh;
+    border-radius: 12px;
+    margin: 12px 0;
+  }
+
+  .texttitle {
+    font-size: 48px;
+    color: #30ff3e;
+  }
+
+  .texttitlesub {
+    font-size: 24px;
+    color: #30ff3e;
+  }
+
+  .textsubtitle {
+    font-size: 16px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .parts {
+    flex-direction: row;
+    min-height: 100vh;
+  }
+
+  .titleparta {
+    width: 100vw;
+  }
+
+  .titlepartb {
+    width: 100vw;
+  }
+
+  .textpart {
+    width: 50vw;
+  }
+
+  .imagepart {
+    width: 50vw;
+  }
+
+  .thetextleft {
+    text-align: left !important;
+  }
+
+  .thetextright {
+    text-align: right !important;
+  }
+}
+
+.hide {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+  transform: scale(0);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
